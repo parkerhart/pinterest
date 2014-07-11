@@ -1,0 +1,9 @@
+<div id="img-list">
+	<% @urls.each do |url| %>
+		<div class="scraped-img-container">
+			<a href="<%= url %>">
+				<img class="scraped-img" src="<%= url %>" />
+			</a>
+		</div>
+	<% end %>
+</div>
